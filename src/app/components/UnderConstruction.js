@@ -35,10 +35,10 @@ const CenterPage = () => {
         <>
             <UnderConstruction>
                 <AnimatedIcon />
-                <Typography variant="h4" sx={{ mt: 2, fontWeight: "bold" }}>
+                <Typography variant="h4" sx={{ mt: 2, fontWeight: "bold", fontSize: { xs: "1.5rem", sm: "2rem", md: "2.5rem" } }}>
                     Under Construction
                 </Typography>
-                <Typography variant="body1" sx={{ mt: 1 }}>
+                <Typography variant="body1" sx={{ mt: 1, fontSize: { xs: "0.9rem", sm: "1rem" } }}>
                     We&#39;re working hard to bring you something amazing!
                 </Typography>
             </UnderConstruction>
