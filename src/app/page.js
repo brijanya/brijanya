@@ -1,12 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
 
-export default function Home() {
+import CenterPage from "./components/UnderConstruction";
+
+const Home = () =>{
   return (
     <>
-      <div>
-        <h1>Coming Soon...!</h1>
-      </div>
+      <CenterPage></CenterPage>
     </>
-  );
+  )
 }
+
+export default Home
