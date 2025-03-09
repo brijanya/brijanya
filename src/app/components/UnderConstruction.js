@@ -39,7 +39,7 @@ const CenterPage = () => {
                     Under Construction
                 </Typography>
                 <Typography variant="body1" sx={{ mt: 1 }}>
-                    We're working hard to bring you something amazing!
+                    We&#39;re working hard to bring you something amazing!
                 </Typography>
             </UnderConstruction>
         </>
